@@ -1,0 +1,36 @@
+{
+  "name": "easy-convert",
+  "version": "1.0.0",
+  "description": "A TypeScript package for converting lengths and weights.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --verbose",
+    "lint": "eslint . --ext .ts",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "unit",
+    "converter",
+    "convert",
+    "easy converter",
+    "simple converter",
+    "unit converter"
+  ],
+  "author": "Soumodeep-Ganguly",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Soumodeep-Ganguly/easy-convert/issues"
+  },
+  "homepage": "https://github.com/Soumodeep-Ganguly/easy-convert#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "eslint": "^9.17.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.31.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.7.3"
+  }
+}
