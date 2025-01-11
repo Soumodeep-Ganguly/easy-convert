@@ -1,25 +1,123 @@
 declare const area: {
-    squareMeter: {
-        squareMeter: number;
-        squareKilometer: number;
-        squareFeet: number;
-        squareYard: number;
+    "square-inch": {
+        "square-inch": number;
+        "square-foot": number;
+        "square-yard": number;
+        "square-mile": number;
         acre: number;
         hectare: number;
+        "square-millimeter": number;
+        "square-centimeter": number;
+        "square-meter": number;
+        "square-kilometer": number;
     };
-    squareKilometer: {
-        squareKilometer: number;
-        squareMeter: number;
+    "square-foot": {
+        "square-inch": number;
+        "square-foot": number;
+        "square-yard": number;
+        "square-mile": number;
         acre: number;
         hectare: number;
-        squareMile: number;
+        "square-millimeter": number;
+        "square-centimeter": number;
+        "square-meter": number;
+        "square-kilometer": number;
+    };
+    "square-yard": {
+        "square-inch": number;
+        "square-foot": number;
+        "square-yard": number;
+        "square-mile": number;
+        acre: number;
+        hectare: number;
+        "square-millimeter": number;
+        "square-centimeter": number;
+        "square-meter": number;
+        "square-kilometer": number;
+    };
+    "square-mile": {
+        "square-inch": number;
+        "square-foot": number;
+        "square-yard": number;
+        "square-mile": number;
+        acre: number;
+        hectare: number;
+        "square-millimeter": number;
+        "square-centimeter": number;
+        "square-meter": number;
+        "square-kilometer": number;
     };
     acre: {
+        "square-inch": number;
+        "square-foot": number;
+        "square-yard": number;
+        "square-mile": number;
         acre: number;
-        squareMeter: number;
         hectare: number;
-        squareKilometer: number;
-        squareMile: number;
+        "square-millimeter": number;
+        "square-centimeter": number;
+        "square-meter": number;
+        "square-kilometer": number;
+    };
+    hectare: {
+        "square-inch": number;
+        "square-foot": number;
+        "square-yard": number;
+        "square-mile": number;
+        acre: number;
+        hectare: number;
+        "square-millimeter": number;
+        "square-centimeter": number;
+        "square-meter": number;
+        "square-kilometer": number;
+    };
+    "square-millimeter": {
+        "square-inch": number;
+        "square-foot": number;
+        "square-yard": number;
+        "square-mile": number;
+        acre: number;
+        hectare: number;
+        "square-millimeter": number;
+        "square-centimeter": number;
+        "square-meter": number;
+        "square-kilometer": number;
+    };
+    "square-centimeter": {
+        "square-inch": number;
+        "square-foot": number;
+        "square-yard": number;
+        "square-mile": number;
+        acre: number;
+        hectare: number;
+        "square-millimeter": number;
+        "square-centimeter": number;
+        "square-meter": number;
+        "square-kilometer": number;
+    };
+    "square-meter": {
+        "square-inch": number;
+        "square-foot": number;
+        "square-yard": number;
+        "square-mile": number;
+        acre: number;
+        hectare: number;
+        "square-millimeter": number;
+        "square-centimeter": number;
+        "square-meter": number;
+        "square-kilometer": number;
+    };
+    "square-kilometer": {
+        "square-inch": number;
+        "square-foot": number;
+        "square-yard": number;
+        "square-mile": number;
+        acre: number;
+        hectare: number;
+        "square-millimeter": number;
+        "square-centimeter": number;
+        "square-meter": number;
+        "square-kilometer": number;
     };
 };
 export default area;

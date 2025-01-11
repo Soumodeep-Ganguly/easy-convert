@@ -1,0 +1,21 @@
+declare const length: {
+    in: string;
+    ft: string;
+    yd: string;
+    mi: string;
+    cp: string;
+    rd: string;
+    A: string;
+    n: string;
+    µ: string;
+    mm: string;
+    cm: string;
+    m: string;
+    km: string;
+    ly: string;
+    ld: string;
+    lh: string;
+    lm: string;
+    ls: string;
+};
+export default length;

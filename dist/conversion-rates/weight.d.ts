@@ -1,32 +1,123 @@
 declare const weight: {
-    gram: {
+    carat: {
+        carat: number;
+        point: number;
         gram: number;
         kilogram: number;
+        megagram: number;
         milligram: number;
-        carats: number;
         ounce: number;
         pound: number;
+        stone: number;
+        ton: number;
+    };
+    point: {
+        carat: number;
+        point: number;
+        gram: number;
+        kilogram: number;
+        megagram: number;
+        milligram: number;
+        ounce: number;
+        pound: number;
+        stone: number;
+        ton: number;
+    };
+    gram: {
+        carat: number;
+        point: number;
+        gram: number;
+        kilogram: number;
+        megagram: number;
+        milligram: number;
+        ounce: number;
+        pound: number;
+        stone: number;
+        ton: number;
     };
     kilogram: {
-        kilogram: number;
+        carat: number;
+        point: number;
         gram: number;
+        kilogram: number;
+        megagram: number;
         milligram: number;
-        pound: number;
         ounce: number;
+        pound: number;
         stone: number;
+        ton: number;
     };
-    pound: {
-        pound: number;
-        kilogram: number;
+    megagram: {
+        carat: number;
+        point: number;
         gram: number;
+        kilogram: number;
+        megagram: number;
+        milligram: number;
         ounce: number;
+        pound: number;
         stone: number;
+        ton: number;
+    };
+    milligram: {
+        carat: number;
+        point: number;
+        gram: number;
+        kilogram: number;
+        megagram: number;
+        milligram: number;
+        ounce: number;
+        pound: number;
+        stone: number;
+        ton: number;
     };
     ounce: {
-        ounce: number;
+        carat: number;
+        point: number;
         gram: number;
         kilogram: number;
+        megagram: number;
+        milligram: number;
+        ounce: number;
         pound: number;
+        stone: number;
+        ton: number;
+    };
+    pound: {
+        carat: number;
+        point: number;
+        gram: number;
+        kilogram: number;
+        megagram: number;
+        milligram: number;
+        ounce: number;
+        pound: number;
+        stone: number;
+        ton: number;
+    };
+    stone: {
+        carat: number;
+        point: number;
+        gram: number;
+        kilogram: number;
+        megagram: number;
+        milligram: number;
+        ounce: number;
+        pound: number;
+        stone: number;
+        ton: number;
+    };
+    ton: {
+        carat: number;
+        point: number;
+        gram: number;
+        kilogram: number;
+        megagram: number;
+        milligram: number;
+        ounce: number;
+        pound: number;
+        stone: number;
+        ton: number;
     };
 };
 export default weight;

@@ -1,0 +1,22 @@
+declare const computerStorage: {
+    b: string;
+    kb: string;
+    Mb: string;
+    Gb: string;
+    Tb: string;
+    Pb: string;
+    Eb: string;
+    Zb: string;
+    Yb: string;
+    nibble: string;
+    B: string;
+    kB: string;
+    MB: string;
+    GB: string;
+    TB: string;
+    PB: string;
+    EB: string;
+    ZB: string;
+    YB: string;
+};
+export default computerStorage;
