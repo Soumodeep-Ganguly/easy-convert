@@ -1,13 +1,13 @@
-# Easy Convert
+# Easy Unit Converter
 
-![npm version](https://badge.fury.io/js/easy-convert.svg) ![license](https://img.shields.io/badge/license-MIT-green.svg)
+![npm version](https://badge.fury.io/js/easy-unit-converter.svg) ![license](https://img.shields.io/badge/license-MIT-green.svg)
 
-[![NPM](https://nodei.co/npm/easy-convert.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/easy-convert/)
+[![NPM](https://nodei.co/npm/easy-unit-converter.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/easy-unit-converter/)
 
 
 ### Introduction
 
-A simple and efficient unit conversion tool to seamlessly convert between various units of measurement. Whether you're working with length, weight, area or computer storage, easy-converter offers an easy-to-use solution for all your conversion needs. With support for both standard and custom units, this tool makes unit conversion straightforward and accessible for developers and non-developers alike.
+A simple and efficient unit conversion tool to seamlessly convert between various units of measurement. Whether you're working with length, weight, area or computer storage, easy-unit-converter offers an easy-to-use solution for all your conversion needs. With support for both standard and custom units, this tool makes unit conversion straightforward and accessible for developers and non-developers alike.
 
 For now it supports:
 
@@ -18,7 +18,7 @@ For now it supports:
 
 ### Installation:
 
-`npm install --save easy-convert`
+`npm install --save easy-unit-converter`
 
 ### Test:
 
@@ -31,11 +31,11 @@ or
 ### Example:
 
 ```
-const { convert } = require('easy-convert');
+const { convert } = require('easy-unit-converter');
 
 // ------------- OR -----------------
 
-import { convert } from "easy-convert";
+import { convert } from "easy-unit-converter";
 
 // You can use the unit name
 console.log(convert(1000, "meter").to("kilometer")) // 1
