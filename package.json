@@ -1,7 +1,7 @@
 {
-  "name": "easy-convert",
+  "name": "easy-unit-convert",
   "version": "1.0.0",
-  "description": "A TypeScript package for converting lengths and weights.",
+  "description": "A simple and efficient unit conversion tool to seamlessly convert between various units of measurement. With support for both standard and custom units, this tool makes unit conversion straightforward and accessible for developers and non-developers alike.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -16,14 +16,15 @@
     "convert",
     "easy converter",
     "simple converter",
-    "unit converter"
+    "unit converter",
+    "easy unit converter"
   ],
   "author": "Soumodeep-Ganguly",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Soumodeep-Ganguly/easy-convert/issues"
+    "url": "https://github.com/Soumodeep-Ganguly/easy-unit-convert/issues"
   },
-  "homepage": "https://github.com/Soumodeep-Ganguly/easy-convert#readme",
+  "homepage": "https://github.com/Soumodeep-Ganguly/easy-unit-convert#readme",
   "devDependencies": {
     "@types/jest": "^29.5.14",
     "eslint": "^9.17.0",
