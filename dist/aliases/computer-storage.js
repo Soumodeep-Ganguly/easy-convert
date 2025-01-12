@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 const computerStorage = {
     b: "bit",
     kb: "kilobit",
@@ -19,4 +21,4 @@ const computerStorage = {
     ZB: "zettabyte",
     YB: "yottabyte"
 };
-export default computerStorage;
+exports.default = computerStorage;

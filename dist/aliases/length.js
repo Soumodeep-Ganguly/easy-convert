@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 const length = {
     in: "inch",
     ft: "foot",
@@ -18,4 +20,4 @@ const length = {
     lm: "light-minute",
     ls: "light-second"
 };
-export default length;
+exports.default = length;

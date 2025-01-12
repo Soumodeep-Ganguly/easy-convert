@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 const area = {
     "square-inch": {
         "square-inch": 1,
@@ -120,4 +122,4 @@ const area = {
         "square-kilometer": 1,
     },
 };
-export default area;
+exports.default = area;

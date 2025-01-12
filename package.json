@@ -1,15 +1,18 @@
 {
   "name": "easy-unit-converter",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "A simple and efficient unit conversion tool to seamlessly convert between various units of measurement. With support for both standard and custom units, this tool makes unit conversion straightforward and accessible for developers and non-developers alike.",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "dist/convert.js",
+  "types": "dist/convert.d.ts",
   "scripts": {
     "build": "tsc",
     "test": "jest --verbose",
     "lint": "eslint . --ext .ts",
-    "start": "node dist/index.js"
+    "start": "node dist/convert.js"
   },
+  "files": [
+    "dist"
+  ],
   "keywords": [
     "unit",
     "converter",
@@ -22,9 +25,9 @@
   "author": "Soumodeep-Ganguly",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Soumodeep-Ganguly/easy-unit-convert/issues"
+    "url": "https://github.com/Soumodeep-Ganguly/easy-unit-converter/issues"
   },
-  "homepage": "https://github.com/Soumodeep-Ganguly/easy-unit-convert#readme",
+  "homepage": "https://github.com/Soumodeep-Ganguly/easy-unit-converter#readme",
   "devDependencies": {
     "@types/jest": "^29.5.14",
     "eslint": "^9.17.0",

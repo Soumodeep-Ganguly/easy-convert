@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 const length = {
     mil: {
         mil: 1,
@@ -399,4 +401,4 @@ const length = {
         "light-second": 1,
     },
 };
-export default length;
+exports.default = length;

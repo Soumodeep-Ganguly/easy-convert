@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 const computerStorage = {
     bit: {
         bit: 1,
@@ -399,4 +401,4 @@ const computerStorage = {
         yottabyte: 1
     }
 };
-export default computerStorage;
+exports.default = computerStorage;

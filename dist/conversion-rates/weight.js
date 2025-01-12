@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 const weight = {
     "carat": {
         carat: 1,
@@ -120,4 +122,4 @@ const weight = {
         ton: 1, // 1 ton = 1 ton
     }
 };
-export default weight;
+exports.default = weight;
